@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.41">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" href="https://shawnzhou-image.oss-cn-beijing.aliyuncs.com/blog/vine-js-normal.png"><title>Vine.js</title><meta name="description" content="Vine.js official web docs">
+    <link rel="modulepreload" href="/assets/app.b5f1bd0a.js"><link rel="modulepreload" href="/assets/404.html.6fc81274.js"><link rel="modulepreload" href="/assets/404.html.93146c89.js"><link rel="prefetch" href="/assets/index.html.b6676835.js"><link rel="prefetch" href="/assets/index.html.6680a4ae.js"><link rel="prefetch" href="/assets/index.html.318f2025.js"><link rel="prefetch" href="/assets/index.html.761e468b.js"><link rel="prefetch" href="/assets/index.html.cfb965c1.js"><link rel="prefetch" href="/assets/index.html.fbab939f.js"><link rel="prefetch" href="/assets/404.3ed22059.js"><link rel="prefetch" href="/assets/Layout.94c63563.js">
+    <link rel="stylesheet" href="/assets/style.c880abed.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><div class="theme-default-content"><h1>404</h1><blockquote>How did we get here?</blockquote><a href="/" class="">Take me home</a></div></div><!----><!--]--></div>
+    <script type="module" src="/assets/app.b5f1bd0a.js" defer></script>
+  </body>
+</html>

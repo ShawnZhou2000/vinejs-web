@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.41">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" href="https://shawnzhou-image.oss-cn-beijing.aliyuncs.com/blog/vine-js-normal.png"><title>首页 | Vine.js</title><meta name="description" content="Vine.js official web docs">
+    <link rel="modulepreload" href="/assets/app.b5f1bd0a.js"><link rel="modulepreload" href="/assets/index.html.761e468b.js"><link rel="modulepreload" href="/assets/index.html.b6676835.js"><link rel="prefetch" href="/assets/index.html.6680a4ae.js"><link rel="prefetch" href="/assets/index.html.318f2025.js"><link rel="prefetch" href="/assets/404.html.93146c89.js"><link rel="prefetch" href="/assets/index.html.cfb965c1.js"><link rel="prefetch" href="/assets/index.html.fbab939f.js"><link rel="prefetch" href="/assets/404.html.6fc81274.js"><link rel="prefetch" href="/assets/404.3ed22059.js"><link rel="prefetch" href="/assets/Layout.94c63563.js">
+    <link rel="stylesheet" href="/assets/style.c880abed.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container no-sidebar"><!--[--><header class="navbar"><div class="toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a aria-current="page" href="/" class="router-link-active router-link-exact-active"><!----><span class="site-name">Vine.js</span></a></span><div class="navbar-items-wrapper" style=""><!--[--><!--]--><!----><!--[--><!--]--><button class="toggle-dark-button" title="toggle dark mode"><svg style="" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg style="display:none;" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><!--]--><div class="sidebar-mask"></div><!--[--><aside class="sidebar"><!----><!--[--><!--]--><!----><!--[--><!--]--></aside><!--]--><!--[--><main class="home"><header class="hero"><img src="https://shawnzhou-image.oss-cn-beijing.aliyuncs.com/blog/vine-js-web.png" alt="Vine.js"><h1 id="main-title">Vine.js</h1><p class="description">一个灵活、易用的静态网站搭建框架</p><p class="actions"><!--[--><a href="/guide" class="action-button primary" aria-label="→ 快速上手"><!--[--><!--]--> → 快速上手 <!--[--><!--]--></a><a href="/about" class="action-button secondary" aria-label="项目简介"><!--[--><!--]--> 项目简介 <!--[--><!--]--></a><!--]--></p></header><div class="features"><!--[--><div class="feature"><h2>全新设计</h2><p>页面由主核心 + 扩展件组合生成，通过更细致地拆分页面组件职责，做到更低成本的功能扩展。</p></div><div class="feature"><h2>基于Vite</h2><p>享受 Vue 3 + Rollup 的高性能开发体验，可短时间内迅速渲染大量页面，同时允许用户使用 Vue 深度定制主题。</p></div><div class="feature"><h2>注重体验</h2><p>Vine 配备了丰富的命令行提示，拥有独立的图形化操作面板，力争降低用户的使用门槛。</p></div><div class="feature"><h2>丰富扩展</h2><p>Vine 拥有一个逐渐丰富的插件社区，你可以在主核心兼容范围内自由选取插件。</p></div><div class="feature"><h2>快速部署</h2><p>仅需一条指令，Vine 即可将网站发布至 GitHub Pages，云服务器或其他平台。</p></div><div class="feature"><h2>多样主题</h2><p>以扩展件的形式将样式抽离，更换主题只需添加对应扩展，不需要更改模板。</p></div><!--]--></div><div class="theme-default-content custom"><!--[--><h3 id="开始使用" tabindex="-1"><a class="header-anchor" href="#开始使用" aria-hidden="true">#</a> 开始使用</h3><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 全局安装 Vine.js CLI</span>
+<span class="token function">npm</span> <span class="token function">install</span> vinejs-cli
+
+<span class="token comment"># 新建一个 Vine 项目，选择一个主核心</span>
+vine create mywebsite
+
+<span class="token comment"># 开启本地调试，Vine 将自动构建静态网站并启动调试服务器</span>
+vine debug 
+
+<span class="token comment"># 启动图形化操作面板，自由配置你的网站！</span>
+vine guider
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><p><strong>本站点还在建设中</strong></p><!--]--></div><!--[--><div class="footer">MIT Licensed | Copyright © 2022 Shawn Zhou</div><!--]--></main><!--]--></div><!----><!--]--></div>
+    <script type="module" src="/assets/app.b5f1bd0a.js" defer></script>
+  </body>
+</html>

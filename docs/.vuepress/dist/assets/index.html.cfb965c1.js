@@ -1,0 +1,1 @@
+import{_ as e,o as a,a as t,b as r,d as o}from"./app.b5f1bd0a.js";const s={},d={id:"readme",tabindex:"-1"},_=r("a",{class:"header-anchor",href:"#readme","aria-hidden":"true"},"#",-1),c=o(" readme"),n=[_,c];function i(h,m){return a(),t("h1",d,n)}var l=e(s,[["render",i],["__file","index.html.vue"]]);export{l as default};
